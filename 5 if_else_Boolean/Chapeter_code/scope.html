@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Scope</title>
+    </head>
+    <body>
+
+        <script>
+            let age=34;
+           /*
+            if(age>18){
+                let usermessage="you can vote";
+            }
+            else{
+                let usermessage="You can't vote"
+            }
+            console.log(usermessage);
+          
+
+            notes- this code are not working why scopes are local  usermessage ;
+
+            */
+           
+            let usermessage;
+
+            if(age>18){
+                 usermessage="you can vote";
+            }
+            else{
+                 usermessage="You can't vote"
+            }
+            console.log(usermessage);
+          
+            
+        </script>
+    </body>
+</html>
